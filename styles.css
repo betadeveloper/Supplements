@@ -130,3 +130,12 @@ nav a::before {
           height: 15vh !important;
       }
   }
+
+  @media screen and (max-width: 372px) {
+      nav a {
+          font-size: 0.8rem;
+      }
+      .hero h1 {
+          font-size: 3rem;
+      }
+  }
