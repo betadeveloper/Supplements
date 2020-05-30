@@ -117,3 +117,16 @@ nav a::before {
     visibility: visible;
     transform: scaleX(1);
   }
+
+  @media screen and (max-width: 768px) {
+      .card {
+          margin: 1.5rem 0 !important;
+      }
+      .nav {
+          height: 15vh;
+          background-color: white;
+      }
+      header {
+          height: 15vh !important;
+      }
+  }
